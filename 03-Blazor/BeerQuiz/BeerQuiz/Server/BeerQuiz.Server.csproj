@@ -7,10 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="questions.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="questions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\BeerQuiz.Infrastructure\BeerQuiz.Infrastructure.csproj" />
     <ProjectReference Include="..\Client\BeerQuiz.Client.csproj" />
     <ProjectReference Include="..\Shared\BeerQuiz.Shared.csproj" />
   </ItemGroup>

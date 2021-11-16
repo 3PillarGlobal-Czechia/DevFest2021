@@ -1,15 +1,16 @@
-using Microsoft.AspNetCore.ResponseCompression;
+using BeerQuiz.Core.Repositories;
+using BeerQuiz.Infrastructure;
+using BeerQuiz.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddTransient<IQuizItemRepository, QuizItemRepository>();
+builder.Services.AddScoped<BeerQuizDbContext>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseWebAssemblyDebugging();
@@ -17,7 +18,6 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
