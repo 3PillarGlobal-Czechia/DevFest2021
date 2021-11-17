@@ -1,19 +1,19 @@
-[
+﻿[
   {
-    "Question": "...",
+    "Question": "První otázka",
     "Options": [
-      "...",
-      "...",
-      "..."
+      "První správná odpověď",
+      "Druhá odpověď",
+      "Třetí odpověď"
     ],
     "CorrectAnswerIndex": 0
   },
   {
-    "Question": "... 2",
+    "Question": "Druhá otázka",
     "Options": [
-      "... 2",
-      "... 2",
-      "... 2"
+      "První odpověď",
+      "Druhá správná odpověď",
+      "Třetí odpověď"
     ],
     "CorrectAnswerIndex": 1
   }

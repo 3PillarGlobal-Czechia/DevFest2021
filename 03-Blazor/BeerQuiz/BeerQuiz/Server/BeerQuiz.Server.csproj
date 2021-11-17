@@ -21,9 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BeerQuiz.Infrastructure\BeerQuiz.Infrastructure.csproj" />
     <ProjectReference Include="..\Client\BeerQuiz.Client.csproj" />
-    <ProjectReference Include="..\Shared\BeerQuiz.Shared.csproj" />
+    <ProjectReference Include="..\Infrastructure\BeerQuiz.Infrastructure.csproj" />
   </ItemGroup>
 
 

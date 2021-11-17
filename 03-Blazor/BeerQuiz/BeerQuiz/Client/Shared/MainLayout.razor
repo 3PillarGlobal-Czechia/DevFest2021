@@ -1,15 +1,17 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
     <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-        </div>
-
+        <nav class="navbar navbar-expand navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://www.3pillarglobal.com/"><img src=Logo.svg /></a>
+                <div class="collapse justify-content-center navbar-collapse">
+                    <div class="navbar-nav">
+                        <a class="nav-link active display-5" href="/">Beer Quiz</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <article class="content px-4">
             @Body
         </article>

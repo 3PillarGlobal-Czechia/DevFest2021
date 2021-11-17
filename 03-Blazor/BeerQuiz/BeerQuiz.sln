@@ -7,11 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerQuiz.Server", "BeerQuiz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerQuiz.Client", "BeerQuiz\Client\BeerQuiz.Client.csproj", "{297B0CE9-76D3-4D0E-8F6B-F6AA055CD641}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerQuiz.Shared", "BeerQuiz\Shared\BeerQuiz.Shared.csproj", "{1C8110E0-E272-4536-B4CB-A99F8289E060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerQuiz.Core", "BeerQuiz\Core\BeerQuiz.Core.csproj", "{827BE17A-137F-4C59-9665-4020169D1DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerQuiz.Core", "BeerQuiz.Core\BeerQuiz.Core.csproj", "{827BE17A-137F-4C59-9665-4020169D1DBA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerQuiz.Infrastructure", "BeerQuiz.Infrastructure\BeerQuiz.Infrastructure.csproj", "{2E8BDFA2-10AB-46E3-80AD-170DC25EB320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerQuiz.Infrastructure", "BeerQuiz\Infrastructure\BeerQuiz.Infrastructure.csproj", "{2E8BDFA2-10AB-46E3-80AD-170DC25EB320}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +25,6 @@ Global
 		{297B0CE9-76D3-4D0E-8F6B-F6AA055CD641}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{297B0CE9-76D3-4D0E-8F6B-F6AA055CD641}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{297B0CE9-76D3-4D0E-8F6B-F6AA055CD641}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C8110E0-E272-4536-B4CB-A99F8289E060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C8110E0-E272-4536-B4CB-A99F8289E060}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C8110E0-E272-4536-B4CB-A99F8289E060}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C8110E0-E272-4536-B4CB-A99F8289E060}.Release|Any CPU.Build.0 = Release|Any CPU
 		{827BE17A-137F-4C59-9665-4020169D1DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{827BE17A-137F-4C59-9665-4020169D1DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{827BE17A-137F-4C59-9665-4020169D1DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
