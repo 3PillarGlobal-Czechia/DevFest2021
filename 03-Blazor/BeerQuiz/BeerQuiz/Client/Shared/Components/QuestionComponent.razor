@@ -28,7 +28,7 @@
     protected override void OnParametersSet()
     {
         base.OnParametersSet();
-        correctAnswer = CurrentQuestion?.Options?.ElementAt(CurrentQuestion.CorrectAnswerIndex);
+        correctAnswer = CurrentQuestion?.GetAnswerString();
     }
 
     private async Task SelectAnswer(string answer)
