@@ -7,6 +7,7 @@
     <title>BeerQuiz</title>
     <base href="/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="_content/Radzen.Blazor/css/default-base.css">
     <link href="css/app.css" rel="stylesheet" />
     <link href="BeerQuiz.Client.styles.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
@@ -17,7 +18,7 @@
 <body>
     <div id="app">
         <div class="container-fluid bg-primary text-center">
-            <img class="mt-3" src="Logo.svg"/>
+            <img class="mt-3" src="Logo.svg" />
             <h2 class="text-light mt-5 mb-5">Beer Quiz</h2>
             <div class="spinner-grow mb-2 text-light" style="width: 3rem; height: 3rem;" role="status">
                 <span class="visually-hidden">Loading...</span>
@@ -33,6 +34,7 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
 </body>
 
 </html>

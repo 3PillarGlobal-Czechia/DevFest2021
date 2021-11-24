@@ -18,11 +18,13 @@
 
 @code {
     [Parameter]
-    public QuizItem? CurrentQuestion { get; set; }
+    public QuizItemResponse? CurrentQuestion { get; set; }
     [Parameter]
     public EventCallback AnswerSelected { get; set; }
     [Parameter]
     public bool DisableAnswers { get; set; } 
+    [Inject]
+    public NotificationService? NotificationService { get; set; }
     private string? correctAnswer;
 
     protected override void OnParametersSet()
@@ -35,11 +37,11 @@
     {
         if(answer == correctAnswer)
         {
-
+            NotificationService?.Notify(NotificationSeverity.Success, "Gratulujeme!", "Zvolil jsi správnou odpověď!");
         }
         else
         {
-
+            NotificationService?.Notify(NotificationSeverity.Error, "Smůla!", "Zvolil jsi špatnou odpověď!");
         }
         if (AnswerSelected.HasDelegate)
         {

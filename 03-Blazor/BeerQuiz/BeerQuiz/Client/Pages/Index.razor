@@ -29,15 +29,15 @@ else
 }
 
 @code {
-    private QuizItem[]? questions;
+    private QuizItemResponse[]? questions;
     private string imageUrl = "https://www.placemonkeys.com/700/500?random&bla=0";
     private int imageIndex = 0;
-    private QuizItem? currentQuestion;
+    private QuizItemResponse? currentQuestion;
     private bool answerSelected = false;
 
     protected override async Task OnInitializedAsync()
     {
-        questions = await Http.GetFromJsonAsync<QuizItem[]>("Question");
+        questions = await Http.GetFromJsonAsync<QuizItemResponse[]>("Question");
         SelectQuestion();
     }
 
