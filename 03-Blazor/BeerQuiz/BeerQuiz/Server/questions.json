@@ -1,20 +1,56 @@
 ﻿[
   {
-    "Question": "První otázka",
+    "Question": "Která země konzumuje nejvíce piva na jednoho obyvatele?",
     "Options": [
-      "První správná odpověď",
-      "Druhá odpověď",
-      "Třetí odpověď"
+      "Německo",
+      "Kanada",
+      "Česká Republika"
     ],
-    "CorrectAnswerIndex": 0
+    "CorrectAnswerIndex": 2
   },
   {
-    "Question": "Druhá otázka",
+    "Question": "‘Reassuringly expensive’ byl slogan kterého piva?",
     "Options": [
-      "První odpověď",
-      "Druhá správná odpověď",
-      "Třetí odpověď"
+      "Radegast",
+      "Stella Artois",
+      "Guinness"
     ],
     "CorrectAnswerIndex": 1
+  },
+  {
+    "Question": "Ve kterém Německém městě se koná Octoberfest?",
+    "Options": [
+      "Brno",
+      "Mnichov",
+      "Berlín"
+    ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Question": "Kolik procent alkoholu má nejsilnější pivo na světě? (Snake Venom)",
+    "Options": [
+      "40.3%",
+      "55.8%",
+      "67.5%"
+    ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Question": "Jakou značku piva pije Homer Simpson?",
+    "Options": [
+      "Radegast",
+      "Duff",
+      "Heineken"
+    ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Question": "Z jakého města pochází Nachmelená Opice?",
+    "Options": [
+      "Krnov",
+      "Opava",
+      "Brno"
+    ],
+    "CorrectAnswerIndex": 0
   }
 ]
